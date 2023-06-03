@@ -57,9 +57,8 @@ public class LadderAndSnake {
 			flag=true;
 		}
 			if(players>2) {	
-				System.out.print("Initialization was attempted for " + players+ " member of players; however, this is only"); 
-				players=2;
-					System.out.print("\nexpected for an extended version the game. Value will be set to "+players);
+				System.out.print("Initialization was attempted for " + players+ " member of players; however, be carefoul a too large amount of players");
+				System.out.print("will make the game difficult to finish is better to choose between 4-6 players");
 					System.out.println();
 				nbPlayers=new String [players][4];
 				positions=new int[players];
